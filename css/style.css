@@ -1,0 +1,530 @@
+/*
+Author URI: http://webthemez.com/
+Note: 
+Licence under Creative Commons Attribution 3.0 
+Do not remove the back-link in this web template 
+-------------------------------------------------------*/
+
+@import url('http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:400,600,700');
+
+@font-face {
+	font-family: 'montserratthin';
+	src: url('fonts\montserrat-variablefont_wght-webfont.woff2') format('woff2'),
+		url('fonts\montserrat-variablefont_wght-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body {
+	font-family: 'montserratthin', Arial, sans-serif;
+	font-size: 15.5px;
+	font-weight: 300;
+	line-height: 1.6em;
+	color: #444444;
+}
+
+a:active {
+	outline: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 700;
+	line-height: 1.1em;
+	color: #000;
+	margin-bottom: 20px;
+}
+
+#thin {
+	font-weight: 300;
+}
+
+#thinner {
+	font-weight: 500;
+}
+
+
+.container {
+	padding: 0 20px 0 20px;
+	position: relative;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.row,
+.row-fluid {
+	margin-bottom: 30px;
+}
+
+.row .row,
+.row-fluid .row-fluid {
+	margin-bottom: 0px;
+}
+
+.row.nomargin,
+.row-fluid.nomargin {
+	margin-bottom: 0;
+}
+
+img.img-polaroid {
+	margin: 0 0 20px 0;
+}
+
+.img-box {
+	max-width: 100%;
+}
+
+/* Header
+=============================================================== */
+
+header .navbar {
+	margin-bottom: 0;
+}
+
+.navbar-default {
+	border: none;
+}
+
+.navbar-brand {
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1em;
+	letter-spacing: -1px;
+	margin-top: 5px;
+	padding: 0 0 0 15px;
+}
+
+.navbar-default .navbar-brand {
+	color: #2FADDE;
+}
+
+header .navbar-collapse ul.navbar-nav {
+	float: right;
+	margin-right: 0;
+}
+
+header .navbar-default {
+	background-color: #a5b4f8;
+}
+
+header .nav li a:hover,
+header .nav li a:focus,
+header .nav li.active a,
+header .nav li.active a:hover,
+header .nav li a.dropdown-toggle:hover,
+header .nav li a.dropdown-toggle:focus,
+header .nav li.active ul.dropdown-menu li a:hover,
+header .nav li.active ul.dropdown-menu li.active a {
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+header .nav li.active a,
+header .nav li.active a:hover {
+	border-bottom: #0e2fc4;
+}
+
+header .navbar-default .navbar-nav>.open>a,
+header .navbar-default .navbar-nav>.open>a:hover,
+header .navbar-default .navbar-nav>.open>a:focus {
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+
+header .navbar {
+	min-height: 40px;
+	padding: 5spx 0;
+}
+
+header .navbar-nav>li {
+	padding-bottom: 12px;
+	padding-top: 17px;
+}
+
+header .navbar-nav>li>a {
+	padding-bottom: 6px;
+	padding-top: 5px;
+	margin-left: 2px;
+	line-height: 30px;
+	font-weight: 700;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+
+.dropdown-menu li a:hover {
+	color: #0e2fc4 !important;
+}
+
+header .nav .caret {
+	border-bottom-color: #f5f5f5;
+	border-top-color: #f5f5f5;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+	background-color: #fff;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+	background-color: #fff;
+}
+
+
+.dropdown-menu {
+	box-shadow: none;
+	border-radius: 0;
+	border: none;
+}
+
+.dropdown-menu li:last-child {
+	padding-bottom: 0 !important;
+	margin-bottom: 0;
+}
+
+header .nav li .dropdown-menu {
+	padding: 0;
+}
+
+header .nav li .dropdown-menu li a {
+	line-height: 28px;
+	padding: 3px 12px;
+}
+
+/* Menu
+=============================================================== */
+
+header .navigation {
+	float: right;
+}
+
+header ul.nav li {
+	border: none;
+	margin: 0;
+}
+
+header ul.nav li a {
+	font-family: 'montserratthin', Arial, sans-serif;
+	font-size: 15px;
+	border: none;
+	font-weight: normal;
+}
+
+header ul.nav li ul li a {
+	font-size: 12px;
+	border: none;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+
+.navbar .nav>li>a {
+	color: #0c0c0c;
+	text-shadow: none;
+	border: 1px solid rgba(255, 255, 255, 0) !important;
+}
+
+.navbar .nav a:hover {
+	background: none;
+	color: #f1eded !important;
+}
+
+.navbar .nav>.active>a,
+.navbar .nav>.active>a:hover {
+	background: none;
+	font-weight: 700;
+}
+
+.navbar .nav>.active>a:active,
+.navbar .nav>.active>a:focus {
+	background: none;
+	outline: 0;
+	font-weight: 700;
+}
+
+.navbar .nav li .dropdown-menu {
+	z-index: 2000;
+}
+
+header ul.nav li ul {
+	margin-top: 1px;
+}
+
+header ul.nav li ul li ul {
+	margin: 1px 0 0 1px;
+}
+
+.dropdown-menu .dropdown i {
+	position: absolute;
+	right: 0;
+	margin-top: 3px;
+	padding-left: 20px;
+}
+
+.navbar .nav>li>.dropdown-menu:before {
+	display: inline-block;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+	border-bottom-color: none;
+	content: none;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+	color: #000000;
+}
+
+
+ul.nav li.dropdown a {
+	z-index: 1000;
+	display: block;
+}
+
+select.selectmenu {
+	display: none;
+}
+
+.pageTitle {
+	color: #000;
+	margin: 30px 0 3px;
+	display: inline-block;
+}
+
+#featured {
+	width: 100%;
+	background: #000;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/* Import Dates
+=============================================================== */
+
+.post-item-wrap {
+	border: none;
+	padding: 5px 0 25px 0px;
+	margin-bottom: 0px;
+	border-radius: 0px;
+	background-color: rgb(255, 255, 255);
+	border: 2px solid #a5b4f8;
+	padding: 8px 12px 13px;
+}
+
+.post-author-img {
+	margin: 5px 0 0 0;
+	float: left;
+	width: 84px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	padding: 0px;
+	border: 1px solid #fff;
+}
+
+.post-title a {
+	font-size: 19px;
+	color: #414042;
+	line-height: 1.3em;
+}
+
+.post-meta-top {
+	width: 100%;
+	padding: 3px 0 0px 0;
+}
+
+.latest-post-wrap {
+	border: 1px solid #443f3f;
+	padding: 15px 15px 15px 0;
+
+}
+
+.post-content2 {
+	padding: 8px 15px 0px 15px;
+	float: left;
+	width: 83%;
+}
+
+.post-meta-top ul {
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+.post-item-wrap {
+	margin: 0 0 12px;
+}
+
+.post-meta-top li a {
+	color: #107fc9;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.post-meta-top li {
+	display: inline;
+	height: 30px;
+	/* line-height: 30px; */
+	float: left;
+
+	padding-right: 15px;
+}
+
+.post-meta-top .fa-calendar {
+	font-size: 18px;
+	color: #FBB40B;
+	margin: 6px 10px 0 0;
+	float: left;
+}
+
+/* Content
+=============================================================== */
+
+#content {
+	position: relative;
+	background: #FFFFFF;
+	padding: 0px 0 0px 0;
+}
+
+#content img {
+	max-width: 100%;
+	height: auto;
+}
+
+.cta-text {
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+.big-cta .cta {
+	margin-top: 10px;
+}
+
+.box {
+	width: 100%;
+}
+
+.box-gray {
+	background: #f8f8f8;
+	padding: 20px 20px 30px;
+}
+
+.box-gray h4,
+.box-gray i {
+	margin-bottom: 20px;
+}
+
+.box-bottom {
+	padding: 20px 0;
+	text-align: center;
+}
+
+.box-bottom a {
+	color: #fff;
+	font-weight: 700;
+}
+
+.box-bottom a:hover {
+	color: #eee;
+	text-decoration: none;
+}
+
+/* Footer
+=============================================================== */
+
+#sub-footer {
+	text-shadow: none;
+	color: #A9A9A9;
+	padding: 10;
+	margin: 10px 0 0 0;
+	background: #ffffff;
+}
+
+#sub-footer p {
+	margin: 0;
+	padding: 0;
+}
+
+#sub-footer span {
+	color: #A9A9A9;
+}
+
+.copyright {
+	text-align: left;
+	margin: 20px 0 0 0;
+	font-size: 12px;
+}
+
+/* Text Change
+=============================================================== */
+
+.textchange {}
+
+.textchange h1 {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.2;
+	margin: 3 0 10px;
+}
+
+.textchange span:before {
+	content: " ";
+	animation: animate infinite 4s;
+
+}
+
+@keyframes animate {
+	0% {
+		content: "Domain";
+		color: #0a0a0a;
+	}
+
+	50% {
+		content: "Database";
+		color: #0e2fc4;
+	}
+
+	100% {
+		content: "Domain";
+		color: #0a0a0a;
+	}
+}
+
+/* Column Settings
+=============================================================== */
